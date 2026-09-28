@@ -3,7 +3,9 @@
 Portfolio Contents: 
 - Weekly live write-ups 
 
+-----------------------------------------------------------------------------------------------------
 Week 2 Work: 
+Task 1 — First Reflection:
 Q1.) What is 'software'?
 Software is a set of instructions or commands created to tell a computerised system, device or any application what to do and how to follow through with such commands. More specifically, software details to a system each specific step it must take to fufill a request, as in: 
   - What to do...
@@ -36,5 +38,60 @@ For Blackboard, developers could reduce the amount of nested menues and made fea
 
 Q2.) What does 'engineering' add to software? 
 Engineering adds a core structure to pre-established software. The engineering aspect of software turns a simple piece of code or script into a much more reliable and permanent system, such as being able to handle more scalability to add or remove features in the future, in general has longer run times and will be used more than typical, not-thought out code and has much more failure handling through automated testing and security features. 
+
+
+-----------------------------------------------------------------------------------------------------
+Task 2 — Applying the Four Process Activities:
+Stage 1 — Kickoff (Week 1)
+Specification (Weak): Only 1 hour briefing with no documentation. 
+Developemt (Present): Database scheme design started. 
+Validation (Entirerly Missing): No validation of requirments. 
+Evolution (Entirerly Missing): Too early in it's phase. 
+
+Stage 2 — Development (Months 1-5)
+Specification (Entirerly Missing): No further requirement gather took place of user consultation. 
+Developemt (Present): Code is being written but without reviews. 
+Validation (Entirerly Missing):  No code reviews, testing or feedbacks were given. 
+Evolution (Entirerly Missing): Internal code changes were overwritten due to lack of source control. 
+
+Stage 3 — A Change of Plan (Month 4)
+Specification (Weak): Scope expanded without formal tracking. 
+Developemt (Present): Changes were integrated into the modules for new requirements. 
+Validation (): Multi-warehouse feature constraints were not validated. 
+Evolution (): System changed mid-flight to support externeal changes not in a proper manner. 
+
+Stage 4 — Testing (Month 6)
+Specification (Entirely Missing): No criteria built for the test scripts. 
+Developemt (Weak): Code changed to patch immediate bugs but not ones found later. 
+Validation (Entirerly Missing): Testing was rush and done informally before release. 
+Evolution (Present): No regression or version management planned. 
+
+Stage 5 — Go-Live (Month 9)
+Specification (Entirely Missing): System launched without looking into user needs/requirements. 
+Developemt (Entirely Missing): Development ended. 
+Validation (Weak): Validation happened post launch leading to user rejection.
+Evolution (Entirerly Missing): System was abandonded after 1 week. 
+
+Which single failure did the most damage overall, and why? 
+The excludion of the arehouse staff (Validation) did the most damage overall. 
+- The wrong system was built because the team spent more of their time creating code for warehouse operations, without comprehending/understanding real wharehouse workflow.
+- Due to lack of source control, delays and no proper manner of testing, a system was built without meeting or even trying to understand base user needs lead to total project failure.
+- Due to real-world validation only happening post-launch, the software became unusable and was rejected. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
