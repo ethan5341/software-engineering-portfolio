@@ -81,6 +81,22 @@ The excludion of the arehouse staff (Validation) did the most damage overall.
 
 
 
+-----------------------------------------------------------------------------------------------------
+Task 3 — Researching a Different Software Failure: 
+## Researching a Software Failure
+Thorac-25 Radiation Therapy Machine (1985-1987)
+In the 1980s, a radiation Therapy Machine dubbed Therac-25 was created and designed to treat cancer in hositpal patients but administering small doses of radiation to kill cancer cells. However, due to software errors/bugs, at random intervals, the machine delivered massive overdoses of radiation, leading to sever injuries and even the deaths of 6 patients. 
+
+What went wrong? 
+The issues with the machine came from programming errors with inadepquate safety checks. One of the major errors were known as 'race conditions' in it's assembly code. More specifically, if the operator were to quickly change/edit an  input mistake on the console within a certain amount of time, the system would fail to detect the configuration change. The machine then would active it's electron beam without deploying a X-ray shield on it's target, leading to injury. 
+
+
+
+-----------------------------------------------------------------------------------------------------
+Task 4 — Revisiting the Software Crisis:
+
+
+
 
 
 
