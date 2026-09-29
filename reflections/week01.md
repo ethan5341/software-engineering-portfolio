@@ -4,7 +4,7 @@ Portfolio Contents:
 - Weekly live write-ups 
 
 -----------------------------------------------------------------------------------------------------
-Week 2 Work: 
+Week 1 Work: 
 Task 1 — First Reflection:
 Q1.) What is 'software'?
 Software is a set of instructions or commands created to tell a computerised system, device or any application what to do and how to follow through with such commands. More specifically, software details to a system each specific step it must take to fufill a request, as in: 
