@@ -99,6 +99,14 @@ I believe complexity fits this sutation perfectly. The failure of the Therac sof
 Task 4 — Revisiting the Software Crisis:
 ## Is There Still a Software Crisis?
 
+1.) Resarch into the Nato Software Engineerring Confrerences (1968-69)
+These conferences were held in Garmisch, Germany in 1968 and Rome, Ital in 1969. The were mostly attended by computer software expers from accross the globe, who agreed on defining a basis for software practicies in the realm of engineering. These conferences were held to solve the probelm of "software crisis" where many software projects were over budgets, late and unreliable aswell as difficult to maintain and function. The goal was to bridge the gap between undiciplined programming methods and more refined engineering protocols based in other scientific fields. 
+These conferences produced 2 major reports from both years, one by Brian Randell and Peter Naur titled "Fotware Engineering" and one edited by Brian Randel and J.N Buxton titled "Software Enginerring Techniques", that defined how software should be developed and established the term and discipline of "software engineering". 
+
+2.) 
+Yes, I do believe that a "software crisis" does exist today. Originally, the software crisis mainly covered areas unable to meet certain thresholds, such as being created in a timely mannor, being under/overbudget, fufilling software requirements, etc. and as modern software becomes more wildely used and complex, these problems and more continue to persist but at a larger scale. We are now at a point where failures in software can have much more dangerous results, so it is important to ensure software is created to a high degree. 
+Based on my research for task 3, the case of the Therac-25 radition therapy machine perfectly proves the continued failures of underlooked software issues and how no matter how many diciplines, regulations and policies exist in order to quell, or at the very least, prevent as much software failure as possible, issues will still arise due to human error and other various means. Despite how technical brilliant the machine was and how the software was developed, small issues in the programming still lead to horrible effects. Ultimately the software crisis has not disappeared but has only scaled to modern times. 
+
 
 
 
