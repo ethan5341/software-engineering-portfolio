@@ -166,16 +166,22 @@ estimable, small, testable (INVEST)?
 Task 3 — Connecting an Engineering Practice, and Portfolio (25 min)
 Q1.) Pick one XP practice — TDD, Continuous Integration, Pair Programming, or Refactoring — from this
 week's reference handout
-• A sheet of paper ruled into columns(Digital tool like trello.com, not required but worth a look)
-• Product backlog handout (PitchPerfect pitch-booking app, 14 user stories)
-• User story case study handout (StudentHub timetabling portal)
-• XP Practices reference (Test-Driven Development, Continuous Integration, Pair Programming,
 
 Q2.) Do a quick search for one real-world example or reported experience of a team using it
+- Option C: Pair Programming:
+
+- The Roles: The driver writes the code and focuses on the more immediate mechanics of a system, while the navigator reviews the code and focues more on design and tracks bugs or errors.
+  
+Positive: It has been stated that there is a signficant reduction in errors or bugs being either caught or prevented before a system is completed when someone one reviews the code. 
+
+Negatives: There is a risk of the 2 individuals not communicating well or having disagreements early-on which can reduce productivity. 
+
+- Real World Example (VMWare Tanzu):
+This format is used on VMWare and is enforced regularly with full-time paired programming accross most if not all engineering teams. By doing this, it result in reducing long-term technical and developmental debt and also decreased the debugging costs down the line. 
    
 Q3.) Write 3-4 sentences explaining how that practice would help the Scrum/Kanban workflow you
-simulated in Task 1 stay sustainable at speed
-
+simulated in Task 1 stay sustainable at speed.
+This type of paired programming practice acts as a real-time quality gate that keeps the task 1 Kanban workflow working continously and with very little error, whilst still operating at an efficient speed. By setting a WIP limit of 2, any delay in code reviews would stall the board and cause bottlenecks in the workload. While a pair reviews story 1 (Calendar View) while typing, the features moves to a 'Done' status without waiting for an indepedent code reviewer. This ensures that development teams can achieve a one-dat sprint deadline with very little sacrifice in quality or budget. 
 ---------------------------------------------------
 
 
