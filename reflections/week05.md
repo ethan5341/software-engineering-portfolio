@@ -167,10 +167,11 @@ Q3.) For the weakest characteristic from Task 1, name one QA activity that would
 and one QC activity that would detect it
 
 - Usability:
-- QA Activity:
-
+- QA Activity: Creating a UI navigation stardard.
+Before any code is developed or written, the team must first establish a framework to base their work on. This standard would then ensure that any new feature that is implemented must be easily accessible to all users from the main dashboard. By enforcing this design process in the begininng, it prevents any convoluted nagivation design from being built into the product.
   
-- QC Activity:
+- QC Activity: User Acceptance Testing.
+When new features are built and implemented, the team should conduct user testing session. These sessions would allow users to test the product to ensure that it meets all their requirements and to ensure the product operates as intended. The team may also measure the users test performance against the baseline to understand where the product falls short in terms of functionality and performance. If users have issues with the product, such as navigation, then this problem is logged and and analysed for future improvements. 
   
 -----------------------------------------------------------------------------------------------------
 
@@ -182,12 +183,51 @@ Task 4 — Standards for a small team (20 min)
 Q1._ Imagine a four-person student team building the next release of your chosen application. Write two
 product standards and two process standards for the team (Handout C has examples to adapt, not copy)
 
+- Product Standards:
+* 1.) The first standard would be a keystroke latency cap and payload limit. The current payload of indexing inside the client's browser must have a certain threshold that it can't exceed, such as 2MB of memory, and the user interface must rendder results within a certain timelimit. This standard would allow the team to enhance their product's performance and by enforcing limits to certain areas, would allow them to decrease data volume and rendering times. 
+
+* 2. ) The second standard would outline a fixed UI design layout that the team must follow. This would mandate and ensure that every feature or function that is implemented into the product would follow a strict guidline how it positioned and fit among the rest of the system. More specifically, the team could enforce a minimum text to background ratio along with a strict visual hierarchy to highlight the key points of the system. This would protect usability and make sure that the system is easily readable and removes any complex design elements. 
+  
+- Process Standards:
+* 1.) The first process would be through ansynchronous database query architecture. Before any of the base code is written, the team must create diagrams and prototypes to prove that their design and all data fetching functions work asychronously with eachother. This would enhance performance effieicny and improve reliability by enforcing reviews on heavy quieries or large repositories from blocking the main feed and prevent drops in operation.
+
+* 2.) The second process is through a shared component validation. When a team member introduces externa; packages or any third part sources to assist with indexing, they first must run a dependency analysis during their build to verify its scalability and adaptability with another member. This would protect the maintainability of the system as it ensures that any new features remain isolated from the rest of the code, preventing it from causing any possible errors or risks to the rest of the system and to keep the main code clean and streamlined. 
+
 ---------------------------------------------------
-Q2.) For each standard, say which ISO/IEC 25010 characteristic it protects
+Q2.) For each standard, say which ISO/IEC 25010 characteristic it protects.
+
+- Product Standards:
+* 1.) Keystroke latency cap and payload limit: This would protect performance effiency by descreasing data volumeand rendering times to prevent lag under large payloads. 
+  
+* 2.) Fixed UI Design Layout: This protects usability to ensure the system is easily reabale and removes complex design elements. 
+
+- Process Standards:
+* 1.) Asynchronous Database Query Architecture: This protects performance efficient and reliability by enforcing reviews to prevent heavy respotiory queries from bloacking the main feed and preventing system freezes and lag. 
+  
+* 2.) Shared Component Validation: This protects maintainability by keeping kew features isolated to prevent errors and integration risks. 
 
 
 ---------------------------------------------------
-Q3.) For each standard, say how a QA activity
+Q3.) For each standard, say how a QA activity would check that it is being followed, and how a QC activity
+would check that the product meets it.
+
+- Product Standards:
+Keystroke latency cap and payload limit:
+- QA: A spring clanning check can be used to verify that the performance budget tracking is integrated into the shared repository.
+- QC: The team can run an automated pipline load test to simulated large card repositoryies to verify that the memory stays below the 2MB threshold and render laytency says under 100ms. 
+  
+Fixed UI Design Layout:
+- QA: The team can review the design guidlines before coding to confirm that the layout is explicity built using components from the design system library and based off of requirements and other forms of feedback.
+- QC: A accessibility scan can be used to verift the text to background contrat ratiom eets the 4:5:1 requirements.
+
+- Process Standards:
+Asynchronous Database Query Architecture:
+- QA: A mandatory peer sign off before any sprints tasks take place and more to "In progress" to ensure the system architecure diarams are approve.
+- QC: Hold a peer code review meeting on final pull requests and inspect code to ensure asynchronous syntax and backend functions are implemented. 
+
+Shared Component Validation:
+- QA:Check the management board to ensure that dependecy analytsis reports are created and attached to their respective ticket before merging code. 
+- QC: Run a dependency audit on the compiled system to confirm the new module remains isolated and free from the rest of the code.
 -----------------------------------------------------------------------------------------------------
 
 
